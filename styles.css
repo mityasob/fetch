@@ -1,24 +1,25 @@
 * {
-	padding: 0px;
-	margin: 0px;
-	border: none;
+  padding: 0px;
+  margin: 0px;
+  border: none;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-ul, ul li {
-	list-style: none;
+ul,
+ul li {
+  list-style: none;
 }
 
 .container {
   width: 661px;
   min-height: 100vh;
   margin: auto;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
 }
 
 .search-form {
@@ -26,13 +27,13 @@ ul, ul li {
   width: 500px;
   margin: auto;
   padding-top: 62px;
-} 
+}
 
 .search-field {
   width: 100%;
   height: 61px;
   padding-left: 13px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
@@ -40,9 +41,9 @@ ul, ul li {
 }
 
 .rep {
-  background-color: #E3E3E3;
+  background-color: #e3e3e3;
   color: #000000;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -50,7 +51,7 @@ ul, ul li {
 }
 
 .rep:hover {
-  background-color: #65CDF9;
+  background-color: #65cdf9;
   cursor: pointer;
 }
 
@@ -61,7 +62,7 @@ ul, ul li {
 
 .rep-info {
   position: relative;
-  background-color: #E27BEB;
+  background-color: #e27beb;
   padding-top: 8px;
   padding-right: 17px;
   padding-bottom: 8px;
@@ -80,27 +81,20 @@ ul, ul li {
 .first-stick {
   width: 50px;
   height: 4px;
-  background-color: #FF0000;
+  background-color: #ff0000;
   transform: translate(-5px, 17px) rotate(45deg);
 }
 
 .second-stick {
   width: 50px;
   height: 4px;
-  background-color: #FF0000;
+  background-color: #ff0000;
   transform: translate(-5px, 13px) rotate(-45deg);
 }
 
-/* .close-button {
-  width: 57px;
-  height: 4px;
-  background-color: #FF0000;
-  transform: translate(400px, -44px) rotate(45deg);
-} */
-
 .rep-info p {
   color: #000000;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
