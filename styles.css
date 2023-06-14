@@ -78,6 +78,10 @@ ul li {
   height: 38px;
 }
 
+.close-button:hover {
+  cursor: pointer;
+}
+
 .first-stick {
   width: 50px;
   height: 4px;
