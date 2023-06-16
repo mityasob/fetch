@@ -40,6 +40,18 @@ ul li {
   line-height: 56px;
 }
 
+.search-field::-webkit-search-cancel-button {
+  cursor: pointer;
+}
+
+.search-field::placeholder {
+  opacity: 0.2;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+}
+
 .rep {
   background-color: #e3e3e3;
   color: #000000;
@@ -48,6 +60,9 @@ ul li {
   font-weight: 400;
   font-size: 30px;
   line-height: 35px;
+  padding-left: 13px;
+  padding-bottom: 9px;
+  border: 2px solid black;
 }
 
 .rep:hover {
@@ -103,4 +118,15 @@ ul li {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+}
+
+.hint {
+  border: 2px solid red;
+  background-color: #ffffff;
+  padding-left: 13px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 56px;
 }
